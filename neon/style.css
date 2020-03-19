@@ -14,6 +14,7 @@ html,body{
 	font-size: 25px;
 }
 .wrapper{
+	margin-top: 100px;
 	height: 70%;
 	padding: 50px;
 	display: flex;
