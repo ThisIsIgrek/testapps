@@ -14,12 +14,10 @@ html,body{
 	font-size: 25px;
 }
 .wrapper{
-	margin-top: 100px;
-	height: 30%;
-	padding: 50px;
-	display: flex;
-	justify-content:center;
-	align-items: center;
+	margin-left: 35px;
+display: flex;
+justify-content: center;
+align-items:center;
 }
 
 @media (max-width:767px){
