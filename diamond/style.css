@@ -7,19 +7,16 @@
 }
 /*Стили для демонстрации*/
 html,body{
-	height: 100%;
-	background-color: #fff;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	color: #fff;
-	font-size: 25px;
+	font-family: sans-serif;
+	margin: 0;
 }
 .wrapper{
-	margin-top: 100px;
-	height: 70%;
-	padding: 50px;
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	background-color: #fff;
+	height: 100vh;
 }
 
 @media (max-width:767px){
@@ -131,16 +128,13 @@ html,body{
 }
 
 .button{
-	position: absolute;
-	bottom: 180px;
-	color: #fff;
-	padding: 0px 60px;
-	font-weight:bold;
 	text-decoration: none;
+	color: white;
+	font-weight:bold;
 	background-color: #4682B4;
 	border-radius: 10px;
 	height: 50px;
 	line-height: 50px;
-	 
+	padding: 0px 50px;
 }
 
